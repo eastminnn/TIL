@@ -22,12 +22,8 @@ TCP는 Transmission Control Protocol 의 약자이고 다음과 같은 특징이
 - 현재 대부분 어플리케이션에서 사용중
 
 TCP 3 way handshake
-<<<<<<< HEAD
 
-![alt text](/Image/Web/IP2.PNG)
-=======
 ![alt text](/Image/Web/IP2.png)
->>>>>>> afe28e35c42b84ee4ad3fdb2c87372ae9a4ed8f5
 - SYN : 접속 요청
 - ACK : 요청 수락
 
@@ -50,12 +46,8 @@ TCP 처럼 신뢰성과 안정성이 보장되지 않아 장점이 거의 없어
 컴퓨터로 게임을 할 때 인터넷창도 뛰우고 유튜브도 보고 음악도 듣고 백그라운드에서 돌아가는 수많은 프로세스들이 수시로 네트워크에 연결되어 통신을 할 것이다.
 
 그런데 IP만 보자면 내 컴퓨터의 물리적인 IP는 분명 하나인데 어떻게 여러 개의 프로세스들이 동시 다발적으로 네트워크에 접속하여 데이터를 주고 받을 수 있을까? 그 이유는 Port에 있다.
-<<<<<<< HEAD
 
-![alt text](/Image/Web/IP3.PNG)
-=======
 ![alt text](/Image/Web/IP3.png)
->>>>>>> afe28e35c42b84ee4ad3fdb2c87372ae9a4ed8f5
 
 인터넷 프로토콜 계층에서 IP에는 단순히 출발지와 도착지의 IP 주소만 있었지만 상위 단계인 TCP 계층에서는 출발지, 도착지의 Port가 존재한다. 이렇게 TCP 계층과 IP 계층을 합친 패킷을 간단하게 TCP/IP 패킷이라고 부른다.
 
